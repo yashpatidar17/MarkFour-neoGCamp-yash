@@ -5,6 +5,8 @@
     --section-color:#dcdcdc;
 }
 
+
+
 body{
     margin: 0;
     background-color: #eee2d7;
@@ -175,4 +177,9 @@ body{
     text-align: center;
     margin: auto;
     margin-bottom: 5rem;
+}
+
+.highlight{
+    font-size:25px;
+    font-style: bold;
 }

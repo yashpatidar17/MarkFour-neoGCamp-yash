@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Roboto&display=swap');
+
+:root{
+    --pri-color:#87CEEB;
+    --section-color:#dcdcdc;
+}
+
+body{
+    margin: 0;
+    background-color: offwhite;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+/**Navigation**/
+.navigation{
+    background-color: var(--pri-color);
+    color: black;
+    font-weight: bold;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    height: 13vh;
+}
+
+.nav-heading{
+    padding:0.5rem;
+    font-size:large;
+    color: black;
+    margin-left: 1rem;
+}
+
+.nav-list{
+    text-align: right;
+}
+
+.nav-list-item{
+    font-size:medium;
+    color: black;
+}
+
+/**links**/
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.first-link{
+    background-color:var(--pri-color);
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: #000;
+}
+
+.second-link{
+    text-decoration: none;
+    border-radius: 0.5rem;
+    border: 1px solid var(--pri-color);
+    
+}
+
+.active-page{
+    font-size:18px;
+}
+
+
+
+
+/**lists**/
+.non-bullet{
+    list-style:none;
+}
+
+.item-inline-list{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/**heading**/
+
+.head{
+    padding: 5rem;
+}
+
+
+.img-head {
+    max-width: 500px;
+    display: block;
+    margin: auto;
+}
+
+.heading-head{
+    padding: 2rem;
+    text-align: center;
+    font-size: 20px;
+}
+
+/**sections**/
+
+.section{
+
+    padding: 2rem;
+}
+
+.section-bg{
+    background-color: #dcdcdc;
+}
+
+
+.section p{
+    padding-bottom: 0.5rem;
+}
+
+.section .link-center{
+    text-align: center;
+}
+
+
+/**constainer**/
+
+.container{
+    padding: 0rem 1rem;
+}
+.container-center{
+    max-width: 600px;
+    margin: auto;
+}
+
+/**footer**/
+
+.footer{
+    background-color: var(--pri-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color:black;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.footer-header{
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    padding-bottom: 1rem;
+}
+
+.footer ul{
+    text-align: center;
+    padding-inline-start: 0px;
+}
+
+.footer-list-item{
+    color: #000;
+    font-weight: bold;
+}
+
+/**project**/
+.project-heading{
+    font-size:30px;
+    padding: 2rem;
+}
+
+.section-bg-project{
+    background-color:var(--section-color);
+    margin: 0;
+}
+
+.project-list{
+    margin-bottom:2rem;
+}
+

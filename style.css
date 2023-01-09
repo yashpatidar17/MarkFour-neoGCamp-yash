@@ -148,6 +148,7 @@ body{
 .footer ul{
     text-align: center;
     padding-inline-start: 0px;
+    
 }
 
 .footer-list-item{
@@ -170,3 +171,8 @@ body{
     margin-bottom:2rem;
 }
 
+.article {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 5rem;
+}
